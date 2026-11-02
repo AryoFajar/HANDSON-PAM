@@ -1,4 +1,3 @@
-// Hands-on 2: Control Flow — when sebagai Expression
 fun gradeOf(nilai: Int): String = when (nilai) {
     in 90..100 -> "A"
     in 80..89 -> "B"

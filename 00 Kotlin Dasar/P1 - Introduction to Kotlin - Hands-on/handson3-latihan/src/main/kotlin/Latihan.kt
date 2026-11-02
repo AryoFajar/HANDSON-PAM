@@ -1,4 +1,3 @@
-// Hands-on 3: Loops, Ranges & Null Safety
 class ScoreBoard(private val skorMentah: List<Int?>) {
     val skorValid: List<Int> = skorMentah.filterNotNull()
 
@@ -21,7 +20,3 @@ fun main() {
 
     cetakRentangGanjil(10)
 }
-
-// Output yang diharapkan:
-// Skor lulus (>= 70): [100, 90, 85, 72]
-// 1 3 5 7 9
