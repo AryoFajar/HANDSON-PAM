@@ -1,18 +1,6 @@
 // Hands-on 1: Variabel, Fungsi & String Template
-// Tugas: Lengkapi fungsi describeProfile() agar mencetak deskripsi profil
-// menggunakan string template, default parameter, dan penanganan nilai
-// nullable dengan safe call (?.) dan elvis operator (?:).
-
 fun describeProfile(nama: String, umur: Int?, kota: String = "Tidak diketahui"): String {
-    // TODO 1: Buat val bernama umurText yang berisi:
-    //   - "<umur> tahun" jika umur tidak null
-    //   - "umur tidak diketahui" jika umur null
-    //   Gunakan safe call (?.) dan elvis operator (?:)
     val umurText = umur?.let { "$it tahun" } ?: "umur tidak diketahui"
-
-    // TODO 2: Kembalikan (return) satu String dengan format:
-    //   "Nama: <nama>, Umur: <umurText>, Kota: <kota>"
-    //   Gunakan string template ($nama, dst), bukan concatenation (+)
     return "Nama: $nama, Umur: $umurText, Kota: $kota"
 }
 
