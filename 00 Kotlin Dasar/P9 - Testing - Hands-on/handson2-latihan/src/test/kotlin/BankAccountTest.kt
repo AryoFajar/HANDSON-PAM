@@ -3,13 +3,6 @@ import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
 
-// Hands-on 2: Testing Exception
-// Tugas: Lengkapi test untuk BankAccount, termasuk kasus withdraw() yang
-// melempar InsufficientFundsException saat saldo tidak cukup.
-//
-// Konsep baru: assertThrows<TipeException> { ... } -- dari org.junit.jupiter.api,
-// digunakan untuk memverifikasi bahwa sebuah blok kode MELEMPAR exception tertentu.
-
 class BankAccountTest {
 
     @Test

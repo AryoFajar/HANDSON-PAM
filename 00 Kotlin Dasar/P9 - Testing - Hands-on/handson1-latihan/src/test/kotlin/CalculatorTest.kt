@@ -2,15 +2,6 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 
-// Hands-on 1: Unit Test Dasar (pola Arrange-Act-Assert)
-// Tugas: Lengkapi ketiga test di bawah mengikuti pola AAA:
-//   Arrange -> siapkan data/objek yang dibutuhkan
-//   Act     -> panggil method yang diuji
-//   Assert  -> verifikasi hasilnya dengan assertEquals(expected, actual)
-//
-// Setiap test masih memanggil fail(...) supaya kelihatan MERAH (gagal) sampai
-// kamu selesaikan TODO-nya -- hapus baris fail(...) setelah assert kamu tulis.
-
 class CalculatorTest {
 
     private val calculator = Calculator()
