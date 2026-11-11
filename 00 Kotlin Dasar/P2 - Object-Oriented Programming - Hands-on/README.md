@@ -19,6 +19,8 @@ Proyek Kotlin/JVM untuk 3 latihan praktikum materi **Kotlin Dasar — Object-Ori
 
 Setiap latihan adalah modul Gradle terpisah, jadi latihan yang belum selesai (belum bisa di-compile) **tidak akan mengganggu** latihan atau solusi lain.
 
+Jika proyek berada di OneDrive, hasil build otomatis disimpan di `GRADLE_USER_HOME/local-builds/` (biasanya `%USERPROFILE%\.gradle\local-builds\`) agar direktori keluaran tidak terganggu sinkronisasi OneDrive. Compiler Kotlin berjalan dalam proses Gradle dengan satu worker untuk menghemat memori.
+
 ## Daftar Latihan
 
 ### 1. `handson1-latihan` / `handson1-solusi` — Class & Inheritance
